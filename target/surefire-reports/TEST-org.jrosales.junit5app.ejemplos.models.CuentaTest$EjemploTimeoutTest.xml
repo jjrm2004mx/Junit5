@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest" time="0.002" tests="13" errors="0" skipped="5" failures="0">
+  <properties/>
+  <testcase name="testDineroInsuficienteExceptionCuenta" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.064">
+    <system-out><![CDATA[inicializando el test
+iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testSaldoCuentaDev" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:66)
+	at org.jrosales.junit5app.ejemplos.models.CuentaTest.testSaldoCuentaDev(CuentaTest.java:281)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></skipped>
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testSaldoCuentaDev2" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.004">
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testRelacionBancoCuentas" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.011">
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaMethodSource(String)" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.0">
+    <skipped message="void org.jrosales.junit5app.ejemplos.models.CuentaTest.testDebitoCuentaMethodSource(java.lang.String) is @Disabled"/>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[1]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.007">
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[2]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.025">
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[3]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.002">
+    <system-out><![CDATA[iniciando el metodo.
+estamos en la repeticion 3
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[4]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.002">
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[5]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.004">
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaTimeout2" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest" time="0.0">
+    <skipped message="class org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest is @Disabled"/>
+  </testcase>
+  <testcase name="testTimeoutAssertions" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest" time="0.0">
+    <skipped message="class org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest is @Disabled"/>
+  </testcase>
+  <testcase name="pruebaTimeout" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest" time="0.0">
+    <skipped message="class org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest is @Disabled"/>
+  </testcase>
+</testsuite>

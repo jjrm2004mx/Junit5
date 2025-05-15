@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jrosales.junit5app.ejemplos.models.CuentaTest$SistemPropertiesTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.036 s -- in org.jrosales.junit5app.ejemplos.models.CuentaTest$SistemPropertiesTest
