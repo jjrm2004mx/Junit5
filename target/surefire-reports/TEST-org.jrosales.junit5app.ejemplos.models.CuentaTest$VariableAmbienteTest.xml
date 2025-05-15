@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.jrosales.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0.035" tests="5" errors="0" skipped="2" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.jrosales.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0.044" tests="5" errors="0" skipped="2" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="MX"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\HTIJ-ROSALESJJ\AppData\Local\Temp\surefire4051889382108426685\surefirebooter-20250514174626136_3.jar C:\Users\HTIJ-ROSALESJJ\AppData\Local\Temp\surefire4051889382108426685 2025-05-14T17-46-25_097-jvmRun1 surefire-20250514174626136_1tmp surefire_0-20250514174626136_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\HTIJ-ROSALESJJ\AppData\Local\Temp\surefire4690115470778634483\surefirebooter-20250515102552563_3.jar C:\Users\HTIJ-ROSALESJJ\AppData\Local\Temp\surefire4690115470778634483 2025-05-15T10-25-51_587-jvmRun1 surefire-20250515102552563_1tmp surefire_0-20250515102552563_2tmp"/>
     <property name="surefire.test.class.path" value="C:\VS\junit5_app\target\test-classes;C:\VS\junit5_app\target\classes;C:\Users\HTIJ-ROSALESJJ\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\HTIJ-ROSALESJJ\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HTIJ-ROSALESJJ\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\HTIJ-ROSALESJJ\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HTIJ-ROSALESJJ\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\HTIJ-ROSALESJJ\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\HTIJ-ROSALESJJ\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\HTIJ-ROSALESJJ"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\HTIJ-ROSALESJJ\AppData\Local\Temp\surefire4051889382108426685\surefirebooter-20250514174626136_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\HTIJ-ROSALESJJ\AppData\Local\Temp\surefire4690115470778634483\surefirebooter-20250515102552563_3.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_311\bin;C:\IDES\Maven\apache-maven-3.9.5-bin\apache-maven-3.9.5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\PROGRA~2\IBM\CLIENT~1;C:\PROGRA~2\IBM\CLIENT~1\Shared;C:\PROGRA~2\IBM\CLIENT~1\Emulator;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Users\HTIJ-ROSALESJJ\AppData\Local\Microsoft\WindowsApps;;C:\Users\HTIJ-ROSALESJJ\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\HTIJ-ROSALESJJ\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_311\bin;C:\IDES\Maven\apache-maven-3.9.5-bin\apache-maven-3.9.5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\PROGRA~2\IBM\CLIENT~1;C:\PROGRA~2\IBM\CLIENT~1\Shared;C:\PROGRA~2\IBM\CLIENT~1\Emulator;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Users\HTIJ-ROSALESJJ\AppData\Local\Microsoft\WindowsApps;C:\Users\HTIJ-ROSALESJJ\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\HTIJ-ROSALESJJ\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.311-b11"/>
@@ -68,7 +68,7 @@ finalizando el metodo de prueba.
   <testcase name="testEnv" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0.0">
     <skipped message="Environment variable [ENVIRONMENT] does not exist"/>
   </testcase>
-  <testcase name="testEnvProdDisabled" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0.002">
+  <testcase name="testEnvProdDisabled" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0.004">
     <system-out><![CDATA[iniciando el metodo.
 finalizando el metodo de prueba.
 ]]></system-out>
@@ -76,13 +76,12 @@ finalizando el metodo de prueba.
   <testcase name="testJavaHome" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0.0">
     <skipped message="Environment variable [JAVA_HOME] with value [C:\Program Files\Java\jdk1.8.0_311] does not match regular expression [.*jdk-15.0.1.*]"/>
   </testcase>
-  <testcase name="imprimirVariablesAmbiente" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0.004">
+  <testcase name="imprimirVariablesAmbiente" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0.007">
     <system-out><![CDATA[iniciando el metodo.
-PATH = C:\Program Files\Java\jdk1.8.0_311\bin;C:\IDES\Maven\apache-maven-3.9.5-bin\apache-maven-3.9.5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\PROGRA~2\IBM\CLIENT~1;C:\PROGRA~2\IBM\CLIENT~1\Shared;C:\PROGRA~2\IBM\CLIENT~1\Emulator;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Users\HTIJ-ROSALESJJ\AppData\Local\Microsoft\WindowsApps;;C:\Users\HTIJ-ROSALESJJ\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\HTIJ-ROSALESJJ\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+PATH = C:\Program Files\Java\jdk1.8.0_311\bin;C:\IDES\Maven\apache-maven-3.9.5-bin\apache-maven-3.9.5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\PROGRA~2\IBM\CLIENT~1;C:\PROGRA~2\IBM\CLIENT~1\Shared;C:\PROGRA~2\IBM\CLIENT~1\Emulator;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Users\HTIJ-ROSALESJJ\AppData\Local\Microsoft\WindowsApps;C:\Users\HTIJ-ROSALESJJ\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\HTIJ-ROSALESJJ\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
 USERDOMAIN_ROAMINGPROFILE = HTIJROSALESJJ
 PROCESSOR_LEVEL = 6
 SYSTEMDRIVE = C:
-SESSIONNAME = Console
 ALLUSERSPROFILE = C:\ProgramData
 PROCESSOR_ARCHITECTURE = AMD64
 VSCODE_GIT_IPC_HANDLE = \\.\pipe\vscode-git-c612a174bf-sock
@@ -95,11 +94,12 @@ PSMODULEPATH = C:\Users\HTIJ-ROSALESJJ\Documents\WindowsPowerShell\Modules;C:\Pr
 PROGRAMDATA = C:\ProgramData
 USERNAME = HTIJ-ROSALESJJ
 VSCODE_GIT_ASKPASS_NODE = C:\Users\HTIJ-ROSALESJJ\AppData\Local\Programs\Microsoft VS Code\Code.exe
-TERM_PROGRAM_VERSION = 1.100.0
+TERM_PROGRAM_VERSION = 1.100.1
 GIT_ASKPASS = c:\Users\HTIJ-ROSALESJJ\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
 WDIR = C:\
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_31620_YFELVTXULFOAUHUT
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_35736_BQCKKURMLLVNXPZO
 VSCODE_STABLE = 1
+FPS_BROWSER_USER_PROFILE_STRING = Default
 ONEDRIVE = C:\Users\HTIJ-ROSALESJJ\OneDrive - GLOBAL HITSS
 CONFIGSETROOT = C:\WINDOWS\ConfigSetRoot
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
@@ -113,6 +113,7 @@ PUBLIC = C:\Users\Public
 LOCALAPPDATA = C:\Users\HTIJ-ROSALESJJ\AppData\Local
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 USERDOMAIN = HTIJROSALESJJ
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 LOGONSERVER = \\HTIJROSALESJJ
 JAVA_HOME = C:\Program Files\Java\jdk1.8.0_311
 PROMPT = $P$G

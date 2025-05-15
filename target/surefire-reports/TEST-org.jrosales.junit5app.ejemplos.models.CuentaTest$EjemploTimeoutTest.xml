@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest" time="0.002" tests="13" errors="0" skipped="5" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest" time="0.008" tests="13" errors="0" skipped="5" failures="0">
   <properties/>
-  <testcase name="testDineroInsuficienteExceptionCuenta" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.064">
+  <testcase name="testDineroInsuficienteExceptionCuenta" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.053">
     <system-out><![CDATA[inicializando el test
 iniciando el metodo.
 finalizando el metodo de prueba.
@@ -89,12 +89,12 @@ finalizando el metodo de prueba.
 finalizando el metodo de prueba.
 ]]></system-out>
   </testcase>
-  <testcase name="testSaldoCuentaDev2" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.004">
+  <testcase name="testSaldoCuentaDev2" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.006">
     <system-out><![CDATA[iniciando el metodo.
 finalizando el metodo de prueba.
 ]]></system-out>
   </testcase>
-  <testcase name="testRelacionBancoCuentas" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.011">
+  <testcase name="testRelacionBancoCuentas" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.007">
     <system-out><![CDATA[iniciando el metodo.
 finalizando el metodo de prueba.
 ]]></system-out>
@@ -102,12 +102,12 @@ finalizando el metodo de prueba.
   <testcase name="testDebitoCuentaMethodSource(String)" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.0">
     <skipped message="void org.jrosales.junit5app.ejemplos.models.CuentaTest.testDebitoCuentaMethodSource(java.lang.String) is @Disabled"/>
   </testcase>
-  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[1]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.007">
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[1]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.005">
     <system-out><![CDATA[iniciando el metodo.
 finalizando el metodo de prueba.
 ]]></system-out>
   </testcase>
-  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[2]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.025">
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[2]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.028">
     <system-out><![CDATA[iniciando el metodo.
 finalizando el metodo de prueba.
 ]]></system-out>
@@ -118,12 +118,12 @@ estamos en la repeticion 3
 finalizando el metodo de prueba.
 ]]></system-out>
   </testcase>
-  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[4]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.002">
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[4]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.003">
     <system-out><![CDATA[iniciando el metodo.
 finalizando el metodo de prueba.
 ]]></system-out>
   </testcase>
-  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[5]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.004">
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[5]" classname="org.jrosales.junit5app.ejemplos.models.CuentaTest" time="0.002">
     <system-out><![CDATA[iniciando el metodo.
 finalizando el metodo de prueba.
 ]]></system-out>

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.002 s -- in org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.008 s -- in org.jrosales.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest
